@@ -4,7 +4,7 @@ import pandas as pd
 from openpyxl import load_workbook
 
 # Set OpenAI API Key
-openai.api_key = st.secrets["api_key"]
+openai.api_key = st.secrets["openai"]["api_key"]
 
 # Streamlit UI
 st.title("💬 Profitability Chatbot")
